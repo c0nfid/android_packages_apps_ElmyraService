@@ -30,6 +30,9 @@
     <uses-permission android:name="android.permission.STATUS_BAR_SERVICE" />
     <uses-permission android:name="com.android.systemui.permission.SELF" />
 
+    <!-- Permission for BootReceiver service -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    
     <!-- Sensor HAL checks for this -->
     <permission android:name="com.google.sensor.elmyra.permission.USE_RAW_SENSOR"
         android:protectionLevel="preinstalled|signature" />
